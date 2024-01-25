@@ -27,10 +27,10 @@
                         <li><a>Contact</a></li>
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-3xl font-extrabold">Hockey’s</a>
+                  <a class="btn btn-ghost text-xl md:text-3xl font-extrabold">Hockey’s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1 font-bold">
+                  <ul class="menu menu-horizontal px-1 text-[16px] font-bold">
                     <li><a class="text-[#E76F51]">Home</a></li>
                     <li><a>About</a></li>
                     <li><a>Pages</a></li>
@@ -43,7 +43,7 @@
                         <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z" clip-rule="evenodd" />
                       </svg>
                 
-                    <button class="btn px-7 ml-3 rounded-sm text-white bg-[#E76F51]">Get Tickets</button>
+                    <button class="btn md:px-7 ml-3 rounded-sm text-white bg-[#E76F51]">Get Tickets</button>
                 </div>
               </div>
         </nav>
@@ -86,31 +86,31 @@
             </div>
         </section>
         <!-- percentage section -->
-        <section class="">
-            <div class="lg:flex my-20">
+        <section class="my-20">
+            <div class="md:grid grid-cols-4">
                 <!-- prayer -->
-               <div class="mb-12">
-                <div class="ml-36 radial-progress lg:ml-28 text-purple-900 text-2xl font-bold" style="--value:87;" role="progressbar">87%</div>
-                <h4 class="text-xl font-semibold text-center my-2">Prayer Facility</h4>
-                <p class="text-center mx-6">Get the most accurate Prayer times.</p>
+               <div class="flex flex-col items-center gap-3 m-10">
+                <div class="radial-progress text-purple-900 text-2xl font-bold" style="--value:87;" role="progressbar">87%</div>
+                <h4 class="text-xl font-semibold text-center">Prayer Facility</h4>
+                <p class="text-center">Get the most accurate Prayer times.</p>
                </div>
                 <!-- Experienced Coach -->
-                <div class="mb-12">
-                    <div class="ml-36 radial-progress lg:ml-28 text-lime-500 text-2xl font-bold" style="--value:95;" role="progressbar">95%</div>
-                    <h4 class="text-xl font-semibold text-center my-2">Experienced Coach</h4>
-                    <p class="text-center mx-6">The best coaches are  leading in the Hockey.</p>
+                <div class="flex flex-col items-center gap-3 m-10">
+                    <div class="radial-progress text-lime-500 text-2xl font-bold" style="--value:95;" role="progressbar">95%</div>
+                    <h4 class="text-xl font-semibold text-center">Experienced Coach</h4>
+                    <p class="text-center">The best coaches are  leading in the Hockey.</p>
                    </div>
                     <!-- Senior Player -->
-               <div class="mb-12">
-                <div class="ml-36 radial-progress lg:ml-28 text-cyan-600 text-2xl font-bold" style="--value:90;" role="progressbar">90%</div>
-                <h4 class="text-xl font-semibold text-center my-2">Senior Player</h4>
-                <p class="text-center mx-6">Senior hockey refers to amateur  hockey competition.</p>
+               <div class="flex flex-col items-center gap-3 m-10">
+                <div class="radial-progress text-cyan-600 text-2xl font-bold" style="--value:90;" role="progressbar">90%</div>
+                <h4 class="text-xl font-semibold text-center">Senior Player</h4>
+                <p class="text-center">Senior hockey refers to amateur  hockey competition.</p>
                </div>
                 <!-- Training Ground -->
-                <div class="mb-12">
-                    <div class="ml-36 radial-progress lg:ml-28 text-orange-300 text-2xl font-bold" style="--value:80;" role="progressbar">80%</div>
-                    <h4 class="text-xl font-semibold text-center my-2">Training Ground</h4>
-                    <p class="text-center mx-6">Field hockey is a team sport structured in standard hockey format.</p>
+                <div class="flex flex-col items-center gap-3 m-10">
+                    <div class="radial-progress text-orange-300 text-2xl font-bold" style="--value:80;" role="progressbar">80%</div>
+                    <h4 class="text-xl font-semibold text-center">Training Ground</h4>
+                    <p class="text-center">Field hockey is a team sport structured in standard hockey format.</p>
                    </div>
             </div>
         </section>
@@ -413,65 +413,115 @@
                         </div>
                       </div>
                       
-                </div>
-                <div class=" grid grid-cols-1 md:border-2 rounded-md p-7">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            <label class="form-control w-full max-w-xs">
+                    </div>
+                    <div class="p-4 md:grid grid-cols-2 gap-4">
+                      <div class="w-full place-items-center">
+                        <h4 class="text-xl font-bold ">Your Name</h4>
+                        <input class="border-2 rounded-md w-full p-3" type="text" placeholder="Enter your full name">
+                      </div>
+                      <div class="w-full place-items-center">
+                        <h4 class="text-xl font-bold">Your Email</h4>
+                        <input class="border-2 rounded-md w-full p-3" type="text" placeholder="Enter your email">
+                      </div>
+                      <div class="w-full place-items-center">
+                        <h4 class="text-xl font-bold">Subject</h4>
+                        <input class="border-2 rounded-md w-full p-3" type="text" placeholder="Enter your subject">
+                      </div>
+                      <div class="w-full place-items-center">
+                        <h4 class="text-xl font-bold">Phone Number</h4>
+                        <input class="border-2 rounded-md w-full p-3" type="text" placeholder="Enter your phone number">                  
+                      </div>
+                            <!-- <label class="form-control w-full max-w-xs">
                             <div class="label">
                               <span class="label-text text-xl font-semibold">Your Name</span>
                             </div>
                             <input type="text" placeholder="Enter Your Full Name" class="input input-bordered max-w-xs" />
-                          </label>
-                          <label class="form-control w-full max-w-xs">
+                          </label> -->
+                          <!-- <label class="form-control w-full max-w-xs">
                             <div class="label">
                               <span class="label-text text-xl font-semibold">Your Email</span>
                             </div>
                             <input type="text" placeholder="Enter Your Email" class="input input-bordered max-w-xs" />
-                          </label>
-                          <label class="form-control w-full max-w-xs">
+                          </label> -->
+                          <!-- <label class="form-control w-full max-w-xs">
                             <div class="label">
                               <span class="label-text text-xl font-semibold">Subject</span>
                             </div>
                             <input type="text" placeholder="Enter Your Full Name" class="input input-bordered max-w-xs" />
-                          </label>
-                          <label class="form-control w-full max-w-xs">
+                          </label> -->
+                          <!-- <label class="form-control w-full max-w-xs">
                             <div class="label">
                               <span class="label-text text-xl font-semibold">Phone Number</span>
                             </div>
                             <input type="text" placeholder="Enter Your Email" class="input input-bordered max-w-xs" />
-                          </label>
-                          
-                          <div class="col-span-2">
-                            <div class="label">
-                                <span class="label-text text-xl font-semibold">Message</span>
-                            </div>
-                            <textarea placeholder="Enter Your Message Here"name="" id="" cols="30" rows="10" class="border rounded-lg w-full"></textarea>
-
-                            </div>
-                          
-                          
+                          </label> -->
+                          <div class="md:col-span-2">
+                            <h4 class="text-xl font-bold ">Message</h4>
+                            <textarea placeholder="Enter Your Message Here" cols="10" rows="10" class="border-2 rounded-lg w-full p-3"></textarea>
+                          </div> 
+                          <button class="btn w-full col-span-2 bg-[#FF4240] text-white text-xl font-bold">Send Message</buttonclas>
                     </div>
-                </div>
+                
             </div>
              <!-- Social media section -->
          <section>
-            <div class=" border-2 my-20 py-10 rounded-md">
+            <div class=" border-2 my-20 py-5 md:py-10 bg-slate-50 rounded-md">
                 <h2 class="text-2xl lg:text-3xl font-extrabold text-center mb-6">Social Media</h2>
                 <div class="flex justify-center gap-4 items-center">
                     <img class="w-14" src="Images/facebook.png" alt="">
-                    <img class="w-12" src="Images/insta.png" alt="">
+                    <img class="w-11" src="Images/insta.png" alt="">
                     <img class="w-12" src="Images/twitter-icon.webp" alt="">
                 </div>
-                
             </div>
         </section>
- 
 </section>
-
+<section>
+  
+</section>
     </main>
 
     <footer>
+        <footer class="footer p-10 md:px-32  bg-[#131318]">
+                <nav class="place-items-center md:place-items-start">
+                    <header class="footer-title text-2xl font-extrabold text-[#FFFFFF]">Get in Touch</header> 
+                    <div class="md:w-80">
+                        <p class="text-slate-100 text-center md:text-left text-[16px] font-medium leading-6">Our customer support and account management teams provide the best service in the industry. we're passionate about our products.</p>
+                    </div>
+                    <div class="my-4">
+                        <div class="flex gap-4"><img class="w-7" src="Images/mail.png" alt="">
+                            <p class="text-white text-[16px] font-medium">hockeys@support.com</p> </div>     
+                        <div class="flex gap-4"><img class="w-7" src="Images/call.png" alt=""> 
+                            <p class="text-white text-[16px] font-medium">(+62) 123-321-543</p></div>    
+                    </div>
+                 </nav>
 
+               <div class="grid grid-cols-2 gap-8 md:grid-cols-3 md:gap-28">
+                <nav class="">
+                  <header class="footer-title text-xl font-bold text-white">Company</header> 
+                  <a class="link link-hover text-[16px] font-medium leading-10 text-slate-100">About Us</a><br>
+                  <a class="link link-hover text-[16px] font-medium leading-10 text-slate-100">Leadership</a><br>
+                  <a class="link link-hover text-[16px] font-medium leading-10 text-slate-100">Careers</a><br>
+                  <a class="link link-hover text-[16px] font-medium leading-10 text-slate-100">News & Article</a><br>
+                  <a class="link link-hover text-[16px] font-medium leading-10 text-slate-100">Legal Notice</a>
+                </nav> 
+                <nav class="">
+                  <header class="footer-title text-xl font-bold text-white">Support</header> 
+                  <a class="link link-hover text-[16px] font-medium leading-10 text-slate-100">Help Center</a><br>
+                  <a class="link link-hover text-[16px] font-medium leading-10 text-slate-100">FAQ</a><br>
+                  <a class="link link-hover text-[16px] font-medium leading-10 text-slate-100">Ticket Support</a><br>
+                  <a class="link link-hover text-[16px] font-medium leading-10 text-slate-100">Contact us</a>
+                </nav>
+                  <nav class="text-center mx-auto col-span-2 md:col-span-1 md:mx-0 md:text-left">
+                  <header class="footer-title text-xl font-bold text-white">Service</header> 
+                  <a class="link link-hover text-[16px] font-medium leading-10 text-slate-100">Academy</a><br>
+                  <a class="link link-hover text-[16px] font-medium leading-10 text-slate-100">Group Lesson</a><br>
+                  <a class="link link-hover text-[16px] font-medium leading-10 text-slate-100">Private Lesson</a><br>
+                  <a class="link link-hover text-[16px] font-medium leading-10 text-slate-100">Hockeys for kids</a><br>
+                  <a class="link link-hover text-[16px] font-medium leading-10 text-slate-100">Hockeys for Adult</a>
+                </nav>
+               </div>
+              </footer>
+        
     </footer>
 </body>
 </html>
